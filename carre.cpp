@@ -37,4 +37,31 @@ int CCarre::GetCote()
 	return this->cote;
 }
 
+void CCarre::Deplacer(char direction, int saut)
+{
+	switch (direction)
+	{
+	case 'n':
+	{
+		this->sy -= saut;
+		break;
+	}
+	case 's':
+	{
+		this->sy += saut;
+		break;
+	}
+	case 'o':
+	{
+		this->sx -= saut;
+		break;
+	}
+	case 'e':
+	{
+		this->sx += saut;
+		break;
+	}
+	}
+}
+
 

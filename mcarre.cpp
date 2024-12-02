@@ -8,6 +8,8 @@ int main()
 	int sx1;
 	int sy1;
 	int cote1;
+	int saut;
+	char direction;
 	cout << "sx";
 	cin >> sx1;
 	cout << "sy";
@@ -18,5 +20,10 @@ int main()
 	test.Setsy(sy1);
 	test.Setcote(cote1);
 	test.Afficher();
-	cout << endl << test.Getsx() << " ; " << test.Getsy() << " ; " << test.GetCote();
+	cout << endl << endl << "saut : ";
+	cin >> saut;
+	cout << "irection : ";
+	cin >> direction;
+	test.Deplacer(direction, saut);
+	test.Afficher();
 }
