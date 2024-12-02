@@ -22,4 +22,19 @@ void CCarre::Afficher()
 	cout << "sx : " << this->sx << " ; " << "sy : " << this->sy << " ; " << "cote : " << this->cote;
 }
 
+int CCarre::Getsx()
+{
+	return this->sx;
+}
+
+int CCarre::Getsy()
+{
+	return this->sy;
+}
+
+int CCarre::GetCote()
+{
+	return this->cote;
+}
+
 

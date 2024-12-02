@@ -8,6 +8,10 @@ public:
 	void Setcote(int cote1);
 	void Afficher();
 
+	int Getsx();
+	int Getsy();
+	int GetCote();
+
 private:
 	int sx;
 	int sy;

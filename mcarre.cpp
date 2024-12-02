@@ -18,4 +18,5 @@ int main()
 	test.Setsy(sy1);
 	test.Setcote(cote1);
 	test.Afficher();
+	cout << endl << test.Getsx() << " ; " << test.Getsy() << " ; " << test.GetCote();
 }
